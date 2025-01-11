@@ -1,7 +1,7 @@
+<h1 align="center">🔒 AI-Powered Password Strength Checker 🔑</h1>
+
 ![image](https://github.com/user-attachments/assets/86a53b50-964c-42ce-843b-b906e2cf06f4)
 
-
-<h1 align="center">🔒 AI-Powered Password Strength Checker 🔑</h1>
 
 
 # About the Project ⚙️
