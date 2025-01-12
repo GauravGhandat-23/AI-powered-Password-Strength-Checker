@@ -3,10 +3,9 @@
 ![image](https://github.com/user-attachments/assets/86a53b50-964c-42ce-843b-b906e2cf06f4)
 
 
-
 # About the Project ⚙️
 
-![Phishing Detection(https://ai-powered-password-strength-checker-7qjikia53n4vf38dxx6dvh.streamlit.app/)](https://img.shields.io/badge/Phishing%20Detection-Active-brightgreen)
+![Phishing Detection](https://img.shields.io/badge/Phishing%20Detection-Active-brightgreen)
 
 This is a password strength checker web application built using **Streamlit** and **Python**. The application evaluates the strength of user-entered passwords based on length, complexity, and entropy. It also provides suggestions to improve weak passwords, following the **Australian Cyber Security Centre**'s password guidelines.
 
