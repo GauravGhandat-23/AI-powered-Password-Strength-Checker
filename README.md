@@ -22,8 +22,8 @@ Follow these steps to get the application running locally on your machine.
 1. Clone the Repository :
    
     ```bash
-    git clone https://github.com/yourusername/password-strength-checker.git
-    cd password-strength-checker.
+    git clone https://github.com/yourusername/AI-powered-Password-Strength-Checker.git
+    cd AI-powered-Password-Strength-Checker
 
 2. Set Up a Virtual Environment : 🔧
 Create and activate a virtual environment
