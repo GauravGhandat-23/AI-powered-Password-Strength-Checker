@@ -5,7 +5,7 @@
 
 # About the Project ⚙️
 
-[![AI-Powered Password Strength Checker](https://img.shields.io/badge/AI--Powered%20Password%20Strength%20Checker-Active-brightgreen)](https://ai-powered-password-strength-checker-7qjikia53n4vf38dxx6dvh.streamlit.app/)
+[![AI-Powered Password Strength Checker](https://img.shields.io/badge/AI--Powered%20Password%20Strength%20Checker-Active-brightgreen)](https://ai-powered-password-strength-checker-cbpcstehlbpiqkgldwpeed.streamlit.app/)
 
 This project is a password strength checker built using Streamlit, Python, and Groq's AI-powered feedback. It evaluates the strength of a password based on several criteria, such as length, complexity, and entropy, and provides suggestions for improvement. Additionally, it uses Groq's AI model to generate personalized feedback to further enhance password security.It also provides suggestions to improve weak passwords, following the **Australian Cyber Security Centre**'s password guidelines.
 
