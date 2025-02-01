@@ -5,7 +5,7 @@ import json
 from groq import Groq
 
 # Initialize the Groq client with your API key
-client = Groq(api_key="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")  # Replace with your actual API key
+client = Groq(api_key="Groq api key")  # Replace with your actual API key
 
 # Function to evaluate password strength
 def evaluate_password(password):
