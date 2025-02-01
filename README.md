@@ -5,15 +5,16 @@
 
 # About the Project ⚙️
 
-[![Phishing Detection](https://img.shields.io/badge/Phishing%20Detection-Active-brightgreen)](https://ai-powered-password-strength-checker-7qjikia53n4vf38dxx6dvh.streamlit.app/)
+[![AI-Powered Password Strength Checker](https://img.shields.io/badge/AI--Powered%20Password%20Strength%20Checker-Active-brightgreen)](https://ai-powered-password-strength-checker-7qjikia53n4vf38dxx6dvh.streamlit.app/)
 
-This is a password strength checker web application built using **Streamlit** and **Python**. The application evaluates the strength of user-entered passwords based on length, complexity, and entropy. It also provides suggestions to improve weak passwords, following the **Australian Cyber Security Centre**'s password guidelines.
+This project is a password strength checker built using Streamlit, Python, and Groq's AI-powered feedback. It evaluates the strength of a password based on several criteria, such as length, complexity, and entropy, and provides suggestions for improvement. Additionally, it uses Groq's AI model to generate personalized feedback to further enhance password security.It also provides suggestions to improve weak passwords, following the **Australian Cyber Security Centre**'s password guidelines.
 
 ## Features 🛠️
 - **Password Evaluation**: Checks the strength of the password based on various criteria (length, complexity, entropy).
 - **Real-Time Feedback**: Provides real-time strength feedback as you type.
 - **Suggestions**: Suggests improvements for weak passwords, including using a combination of uppercase, lowercase, digits, and special characters.
 - **Australian Cyber Security Centre** advice: Avoids common weak passwords like "password" or "1234."
+- **AI Feedback**: Fetches personalized security feedback using Groq's AI model.
 
 ## Installation 📦
 
@@ -31,12 +32,14 @@ Create and activate a virtual environment
     ```bash
     python -m venv venv
     .\venv\Scripts\activate
-
-3. Install Dependencies : 📦
+    
+3. Replace Groq api key in the client = **Groq(api_key="Groq api key")** line with your actual Groq API key. You can get your API key by signing up on Groq's platform.
+   
+4. Install Dependencies : 📦
 Install the required libraries
 
     ```bash
-    pip install streamlit
+    pip install streamlit requests groq
 
 4. Run the Application : 🚀
 Once the dependencies are installed, run the Streamlit app
@@ -52,6 +55,7 @@ The app will start running on http://localhost:8501/.
 - **Evaluation**: The app evaluates the strength of the password using various checks (length, character types, entropy).
 - **Feedback**: Displays the password's strength (Weak, Medium, Strong) and provides suggestions to improve it.
 - **Suggestions**: Suggestions include adding uppercase letters, numbers, special characters, and ensuring the password has sufficient length.
+- **AI Feedback**: Once the password is entered, the app sends the password to the Groq API to fetch AI-generated feedback. The AI evaluates the password and provides suggestions for improvement.
 
 ## Example Passwords and Expected Results 🔐
 
@@ -71,18 +75,18 @@ Feel free to fork this repository, create an issue, or submit a pull request. Al
 - **Streamlit**: For making it easy to build web apps.
 
 - **Australian Cyber Security Centre (ACSC)**: For the password guidelines.
+  
+- **Groq Python SDK**
 
 ## Preview 💻
 
 ## Weak Password
 
-![weak 1](https://github.com/user-attachments/assets/7a62e837-dbe9-435f-81e9-23cff8cd8b76)
-
-![weak 2](https://github.com/user-attachments/assets/bdd9ceca-6b63-47d7-966d-2272e8959589)
+![weak password_page-0001](https://github.com/user-attachments/assets/9ac731ec-75a6-49fd-8613-2d3f57699bbf)
 
 ## Strong Password
 
-![strong 2](https://github.com/user-attachments/assets/461c4b3e-6bcd-4604-a51c-4c7cb59eee19)
+![strong password_page-0001](https://github.com/user-attachments/assets/c8bc39f5-dd38-4881-ad55-c4508b773e0e)
 
 ## Connect with Me 🌐
 
